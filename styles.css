@@ -1,0 +1,291 @@
+﻿* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+body
+{
+    background-color: rgb(200, 200, 200);
+    margin: 0;
+}
+
+.row {
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+
+header {
+    background: url("images/festival.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* HLAVNÍ NADPIS */
+.main-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid black;
+    padding: 0 40px;
+    border-radius: 16px;
+    text-wrap: nowrap;
+}
+
+.main-heading h1 {
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.main-heading p {
+    font-size: 28px;
+}
+
+/* OSTATNÍ HLAVNÍ NADPISY NA STRÁNCE */
+.about-festival h2, .heading-singers h2, .our-teams h2, .contact-container h2 {
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* O NÁS TEXT */
+.about-festival {
+    border-right: 2px solid white;
+}
+.about-festival p {
+    font-size: 24px;
+    padding: 25px 50px 25px 50px;
+    text-align: center;
+    margin: 0;
+}
+
+/* ZPĚVÁCI */
+.all-singers {
+    border-left: 2px solid white;
+}
+.singers-card-taylor {
+    background-color: rgb(255, 255, 255);
+    margin: 25px auto;
+    padding: 24px;
+    border-radius: 20px;
+    display: flex;
+    gap: 24px;
+    width: 80%;
+}
+.singers-card-ray {
+    background-color: rgb(255, 255, 255);
+    margin: 35px auto;
+    padding: 24px;
+    border-radius: 20px;
+    display: flex;
+    gap: 24px;
+    text-align: right;
+    width: 80%;
+}
+
+#taylor-img {
+    border-radius: 20px;
+    width: 200px;
+}
+
+#ray-img {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.heading-paragraph-ray p, .heading-paragraph-taylor p {
+    margin-bottom: 0;
+}
+
+/* NÁŠ TÝM */
+
+.our-teams {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.our-teams p {
+    font-size: 24px;
+    padding: 25px 50px;
+    margin: 0;
+}
+
+.our-teams-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-teams-card {
+    width: 25%;
+    background: white;
+    border-radius: 30px;
+    padding: 20px 16px;
+}
+
+.our-teams-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+}
+
+.our-teams-card h3 {
+    font-size: 24px;
+}
+
+.our-teams-card h4 {
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+    margin-bottom: 0;
+}
+
+.our-teams-card img {
+    border-radius: 50%;
+    border: 5px solid rgb(200, 200, 200);
+    width: 92px;
+    height: 92px;
+}
+
+/* KONTAKTNÍ FORMULÁŘ */
+.contact-form {
+    width: 60%;
+    margin: 25px auto;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0 0 0;
+    background: black;
+    color: white;
+    border: none;
+}
+
+input[type="button"]:hover {
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0 0 0;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+
+/* HLAVNÍ NAVIGACE V HLAVIČCE A V PATIČCE */
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 28px;
+    color: white;
+    margin: 0;
+    padding: 16px 0;
+    background: black;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link a, .footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link a:hover, .footer-link a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+footer {
+    padding: 16px 0;
+    background: black;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons .fa {
+    font-size: 24px;
+}
+
+.fa-facebook-f {
+    color: dodgerblue;
+}
+.fa-facebook-f:hover {
+    color: white;
+}
+
+.fa-instagram {
+    color: deeppink;
+}
+.fa-instagram:hover {
+    color: white;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+.fa-youtube-play:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

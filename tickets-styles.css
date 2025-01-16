@@ -1,0 +1,173 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+body
+{
+    background-color: rgb(200, 200, 200);
+    margin: 0;
+}
+
+hr {
+    background: black;
+    height: 2px;
+    border: none;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: url("images/festival.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* HLAVNÍ NADPIS */
+.tickets-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid black;
+    padding: 0 40px;
+    border-radius: 16px;
+    text-wrap: nowrap;
+}
+.heading-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-container h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.heading-container img {
+    width: 132px;
+}
+/* VSTUPENKY */
+.all-tickets {
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.one-ticket-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-heading, .paragraph-btn {
+    display: flex;
+}
+
+.btn {
+    margin-left: 20px;
+}
+.one-ticket-type img {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.one-ticket-type h2 {
+    text-transform: uppercase;
+    margin-right: 50px;
+    margin-top: 38px;
+}
+
+.one-ticket-type p {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 38px;
+}
+
+
+
+/* HLAVNÍ NAVIGACE V HLAVIČCE A V PATIČCE */
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 28px;
+    color: white;
+    margin: 0;
+    padding: 16px 0;
+    background: black;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-link a, .footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link a:hover, .footer-link a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+footer {
+    padding: 16px 0;
+    background: black;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons .fa {
+    font-size: 24px;
+}
+
+.fa-facebook-f {
+    color: dodgerblue;
+}
+.fa-facebook-f:hover {
+    color: white;
+}
+
+.fa-instagram {
+    color: deeppink;
+}
+.fa-instagram:hover {
+    color: white;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+.fa-youtube-play:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
