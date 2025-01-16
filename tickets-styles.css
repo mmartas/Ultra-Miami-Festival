@@ -67,13 +67,33 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+.one-ticket-type:hover {
+    background-color: #d8eaf2;
+    border-radius: 20px;
+    cursor: pointer;
+}
 .img-heading, .paragraph-btn {
     display: flex;
 }
 
 .btn {
     margin-left: 20px;
+    background: #d8eaf2;
+    color: black;
+    border-radius: 24px;
+    width: 120px;
+    height: 50px;
+    margin-top: 25px;
+    border: 2px solid black;
+    transition: background-color 0.5s;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn:hover {
+    background-color: black;
+    cursor: pointer;
+    color: #d8eaf2;
+    transition: background-color 0.5s;
 }
 .one-ticket-type img {
     width: 100px;
@@ -84,7 +104,6 @@ header {
 
 .one-ticket-type h2 {
     text-transform: uppercase;
-    margin-right: 50px;
     margin-top: 38px;
 }
 
@@ -94,7 +113,25 @@ header {
     margin-top: 38px;
 }
 
+.one-ticket .empty-space {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s, height 0.5s;
+}
+.one-ticket:hover .empty-space {
+    height: 70px;
+    opacity: 1;
+    transition: opacity 0.5s, height 0.5s;
+}
 
+.empty-space-lists {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    padding: 0 0 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
 
 /* HLAVNÍ NAVIGACE V HLAVIČCE A V PATIČCE */
 .nav-links {
@@ -150,6 +187,7 @@ footer {
 }
 .fa-facebook-f:hover {
     color: white;
+    cursor: pointer;
 }
 
 .fa-instagram {
@@ -157,6 +195,7 @@ footer {
 }
 .fa-instagram:hover {
     color: white;
+    cursor: pointer;
 }
 
 .fa-youtube-play {
@@ -164,10 +203,12 @@ footer {
 }
 .fa-youtube-play:hover {
     color: white;
+    cursor: pointer;
 }
 
 .copyright {
     text-align: center;
     color: white;
     font-size: 10px;
+    margin: 0;
 }

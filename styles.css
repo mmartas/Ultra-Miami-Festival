@@ -12,9 +12,12 @@ body
 
 .row {
     width: 80%;
-    margin: 30px auto 0 auto;
+    margin: 0px auto;
 }
 
+.empty-space2 {
+    height: 66px;
+}
 
 header {
     background: url("images/festival.jpg");
@@ -50,44 +53,40 @@ header {
 /* OSTATNÍ HLAVNÍ NADPISY NA STRÁNCE */
 .about-festival h2, .heading-singers h2, .our-teams h2, .contact-container h2 {
     text-align: center;
-    margin: 25px 0 10px 0;
+    margin: 0 0 10px 0;
     font-size: 40px;
     text-transform: uppercase;
 }
 
 /* O NÁS TEXT */
-.about-festival {
-    border-right: 2px solid white;
-}
 .about-festival p {
     font-size: 24px;
     padding: 25px 50px 25px 50px;
     text-align: center;
     margin: 0;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: white;
+    line-height: 1.5;
 }
 
 /* ZPĚVÁCI */
-.all-singers {
-    border-left: 2px solid white;
-}
 .singers-card-taylor {
     background-color: rgb(255, 255, 255);
-    margin: 25px auto;
+    margin: 0 auto;
     padding: 24px;
     border-radius: 20px;
     display: flex;
     gap: 24px;
-    width: 80%;
 }
 .singers-card-ray {
     background-color: rgb(255, 255, 255);
-    margin: 35px auto;
+    margin: 30px auto 0 auto;
     padding: 24px;
     border-radius: 20px;
     display: flex;
     gap: 24px;
     text-align: right;
-    width: 80%;
 }
 
 #taylor-img {
@@ -102,19 +101,20 @@ header {
 
 .heading-paragraph-ray p, .heading-paragraph-taylor p {
     margin-bottom: 0;
+    line-height: 1.5;
 }
 
 /* NÁŠ TÝM */
 
 .our-teams {
     text-align: center;
-    padding-bottom: 25px;
 }
 
 .our-teams p {
     font-size: 24px;
     padding: 25px 50px;
     margin: 0;
+    line-height: 1.5;
 }
 
 .our-teams-cards {
@@ -155,18 +155,21 @@ header {
 /* KONTAKTNÍ FORMULÁŘ */
 .contact-form {
     width: 60%;
-    margin: 25px auto;
+    margin: 25px auto 0 auto;
 }
 
 input[type="text"], input[type="email"] {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
+    border-radius: 20px;
+    border: none;
 }
 
 input[type="checkbox"] {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
+    align-items: center;
 }
 
 input[type="button"] {
@@ -176,6 +179,10 @@ input[type="button"] {
     background: black;
     color: white;
     border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
 }
 
 input[type="button"]:hover {
@@ -186,6 +193,8 @@ input[type="button"]:hover {
     color: black;
     border: none;
     cursor: pointer;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
 }
 
 label {
@@ -197,8 +206,15 @@ textarea {
     resize: none;
     padding: 10px;
     margin: 8px 0;
+    border-radius: 20px;
+    border: none;
 }
 
+.gdpr-acess {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
 
 /* HLAVNÍ NAVIGACE V HLAVIČCE A V PATIČCE */
 .nav-links {
@@ -212,6 +228,10 @@ textarea {
     background: black;
     font-family: Tahoma, sans-serif;
     text-transform: uppercase;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    opacity: 0.8;
 }
 
 .footer-links {
@@ -256,6 +276,7 @@ footer {
 }
 .fa-facebook-f:hover {
     color: white;
+    cursor: pointer;
 }
 
 .fa-instagram {
@@ -263,6 +284,7 @@ footer {
 }
 .fa-instagram:hover {
     color: white;
+    cursor: pointer;
 }
 
 .fa-youtube-play {
@@ -270,12 +292,14 @@ footer {
 }
 .fa-youtube-play:hover {
     color: white;
+    cursor: pointer;
 }
 
 .copyright {
     text-align: center;
     color: white;
     font-size: 10px;
+    margin: 0;
 }
 
 
