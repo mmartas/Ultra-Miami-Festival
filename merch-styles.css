@@ -1,6 +1,7 @@
 * {
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
 }
 
 body
@@ -11,9 +12,20 @@ body
 
 .row {
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
+.empty-space2 {
+    height: 66px;
+}
+
+header {
+    background: url("images/festival.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
 
 
 
@@ -29,6 +41,7 @@ body
     margin: 0;
     padding: 16px 0;
     background: black;
+    text-transform: uppercase;
 }
 
 .footer-links {
@@ -39,6 +52,7 @@ body
     gap: 24px;
     padding: 0;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 .nav-link a, .footer-link a {
@@ -71,6 +85,7 @@ footer {
 }
 .fa-facebook-f:hover {
     color: white;
+    cursor: pointer;
 }
 
 .fa-instagram {
@@ -78,6 +93,7 @@ footer {
 }
 .fa-instagram:hover {
     color: white;
+    cursor: pointer;
 }
 
 .fa-youtube-play {
@@ -85,6 +101,7 @@ footer {
 }
 .fa-youtube-play:hover {
     color: white;
+    cursor: pointer;
 }
 
 .copyright {
