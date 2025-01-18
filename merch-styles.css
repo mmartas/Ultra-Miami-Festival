@@ -27,8 +27,31 @@ header {
     background-attachment: fixed;
 }
 
+/* HEADING NADPIS */
+.merch-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid black;
+    padding: 0 40px;
+    border-radius: 16px;
+    text-wrap: nowrap;
+}
+.heading-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.heading-container h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
 
+.heading-container img {
+    width: 132px;
+}
 
 
 /* HLAVNÍ NAVIGACE V HLAVIČCE A V PATIČCE */
