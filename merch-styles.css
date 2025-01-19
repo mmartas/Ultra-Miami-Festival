@@ -64,6 +64,17 @@ hr {
     margin-left: 10px;
 }
 
+/* NADPIS MEN COLECTION */
+.men-colection-paragraph-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+.men-colection-paragraph-heading p {
+    text-decoration: underline;
+    margin: 0 0 16px 0;
+}
+
 /* PRODUCTS */
 .men-colection-paragraph-heading {
     text-align: center;
