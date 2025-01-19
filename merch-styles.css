@@ -31,7 +31,7 @@ hr {
     width: 80%;
     height: 3px;
     border: 0;
-    background-color: #d8eaf2;
+    background-color: black;
     
 }
 
@@ -70,11 +70,11 @@ hr {
 }
 
 .men-colection-one-card {
-    border: 2px solid white;
     padding: 20px 0;
     width: 80%;
     margin: 0 auto;
     border-radius: 20px;
+    background-color: white;
 }
 .men-colection-one-card-images {
     display: flex;
@@ -82,55 +82,67 @@ hr {
 }
 .men-colection-one-card-images img {
     width: 360px;
+    border-radius: 20px;
 }
 
 .men-colection-one-card .paragraph-price-sizes-btn {
     display: flex;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: #d8eaf2;
     margin: 15px 0;
     height: 50px;
 }
 
 .men-colection-one-card .paragraph-price-sizes-btn .white {
-    margin: 0;
-    height: 10px;
-    width: 10px;
+    margin: 7px 0 0 0;
+    height: 35px;
+    width: 35px;
     background-color: white;
     border: 1px solid black;
+    cursor: pointer;
 }
 .men-colection-one-card .paragraph-price-sizes-btn .black {
-    margin: 0;
-    height: 10px;
-    width: 10px;
+    margin: 7px 0 0 0;
+    height: 35px;
+    width: 35px;
     background-color: black;
+    cursor: pointer;
 }
 
 .men-colection-one-card .paragraph-price-sizes-btn .sizes {
     display: flex;
+    margin-top: 15px;
 }
 
 .men-colection-one-card .paragraph-price-sizes-btn .price {
     font-size: 24px;
     font-weight: 800;
+    margin: 10px 0 0 0;
 }
 .men-colection-one-card .paragraph-price-sizes-btn .sizes .one-size {
     margin-right: 15px;
 }
 
+.men-colection-one-card .paragraph-price-sizes-btn .two-colors {
+    display: flex;
+    gap: 20px;
+}
+
 .men-colection-one-card .paragraph-price-sizes-btn .btn {
-    margin: 0;
-    padding: 0;
-    width: 50px;
+    margin: 5px 0;
+    width: 100px;
     cursor: pointer;
     background-color: #d8eaf2;
     border: 2px solid black;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 24px;
+}
+.men-colection-one-card .paragraph-price-sizes-btn .btn:hover {
+    background-color: white;
 }
 
+
 .men-colection-one-card .paragraph-price-sizes-btn .btn img {
-    width: 40px;
+    width: 35px;
 }
 
 
