@@ -27,6 +27,14 @@ header {
     background-attachment: fixed;
 }
 
+hr {
+    width: 80%;
+    height: 3px;
+    border: 0;
+    background-color: #d8eaf2;
+    
+}
+
 /* HEADING NADPIS */
 .merch-heading {
     position: absolute;
@@ -50,9 +58,90 @@ header {
 }
 
 .heading-container img {
-    width: 132px;
+    width: 100px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 10px;
 }
 
+/* PRODUCTS */
+.men-colection-paragraph-heading {
+    text-align: center;
+}
+
+.men-colection-one-card {
+    border: 2px solid white;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.men-colection-one-card-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+.men-colection-one-card-images img {
+    width: 360px;
+}
+
+.men-colection-one-card .paragraph-price-sizes-btn {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 15px 0;
+    height: 50px;
+}
+
+.men-colection-one-card .paragraph-price-sizes-btn .white {
+    margin: 0;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.men-colection-one-card .paragraph-price-sizes-btn .black {
+    margin: 0;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+}
+
+.men-colection-one-card .paragraph-price-sizes-btn .sizes {
+    display: flex;
+}
+
+.men-colection-one-card .paragraph-price-sizes-btn .price {
+    font-size: 24px;
+    font-weight: 800;
+}
+.men-colection-one-card .paragraph-price-sizes-btn .sizes .one-size {
+    margin-right: 15px;
+}
+
+.men-colection-one-card .paragraph-price-sizes-btn .btn {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    cursor: pointer;
+    background-color: #d8eaf2;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.men-colection-one-card .paragraph-price-sizes-btn .btn img {
+    width: 40px;
+}
+
+
+.men-colection-one-card .name {
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
 
 /* HLAVNÍ NAVIGACE V HLAVIČCE A V PATIČCE */
 .nav-links {
