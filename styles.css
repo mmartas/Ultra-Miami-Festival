@@ -304,7 +304,10 @@ footer {
     margin: 0;
 }
 
+/* QUERRIES */
 @media only screen and (max-width: 1000px) {
+
+    /* HLAVNÍ MENU*/
     .nav-links {
         flex-direction: column;
         align-items: center;
@@ -313,6 +316,7 @@ footer {
         position: relative;
     }
 
+    /* HLAVNÍ NADPIS*/
     .main-heading {
         top: 33%;
         text-wrap: wrap;
@@ -321,6 +325,8 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
+
+    /* NÁŠ TÝM*/
     .our-teams-cards {
         flex-direction: column;
         gap: 20px;
@@ -338,6 +344,7 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
+    /* PATIČKA*/
     .footer-links {
         display: none;
     }
