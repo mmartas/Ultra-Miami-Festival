@@ -93,11 +93,13 @@ header {
 #taylor-img {
     border-radius: 20px;
     width: 200px;
+    height: 200px;
 }
 
 #ray-img {
     border-radius: 20px;
     width: 200px;
+    height: 200px;
 }
 
 .heading-paragraph-ray p, .heading-paragraph-taylor p {
